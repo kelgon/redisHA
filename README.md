@@ -6,6 +6,7 @@ Solution of redis failover, read/write separation, and read load-balance. Total 
 - Switch clients to the new master when failover happens
 - read/write separation
 - Read traffic load-balance (between slaves or all servers)
+- No multi-master problem (compare to legacy HAProxy redis check)
 - Total client-independent, doesn't require any client libraries
 
 # Prerequisite
