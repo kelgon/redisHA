@@ -32,7 +32,7 @@ redis-sentinel ./sentinel.conf
 haproxy -f ./haproxy.cfg
 ```
 
-## Then its done
+## Then it's done
 just let your clients use HAProxy's 16379 port for writes and 16479 port for reads
 
 # How to test failover
